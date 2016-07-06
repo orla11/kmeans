@@ -1,0 +1,7 @@
+UDOO è un single-board computer integrato a un microcontrollore compatibile con Arduino 2, concepito per l'educazione informatica, il mondo dei Maker e l'Internet of Things.
+
+Il prodotto è stato lanciato su Kickstarter ad aprile 2013 raccogliendo vasto consenso. È disponibile in 3 versioni: UDOO Dual Basic, UDOO Dual, UDOO Quad, rispettivamente al prezzo di $99, $115 e $135.
+
+Il single-board computer UDOO integra un processore ARM Freescale Cortex-A9 i.MX 6 Dual Core o Quad Core, con ottime performance sia su sistema operativo Android che su Linux, e un microcontrollore compatibile con Arduino 2 con un ARM dedicato Atmel SAM3X8E CPU.
+
+UDOO è il risultato di un impegno congiunto di Aidilab srl e SECO USA Inc, in collaborazione con un gruppo di ricerca multidisciplinare con competenze in Interaction Design, tecnologie embedded, sensor network e scienze cognitive.

@@ -1,0 +1,5 @@
+OS X precedentemente noto come Mac OS X è il sistema operativo sviluppato da Apple per i computer Macintosh, nato nel 2001 per combinare le note caratteristiche dell'interfaccia utente dell'originario Mac OS con l'architettura di un sistema operativo di derivazione UNIX della famiglia BSD.
+
+Nonostante il nome utilizzato fino alla versione 10.7.5, Mac OS X è un'altra versione rispetto a Mac OS nato nel 1984 con i primi computer Apple: venne completamente riscritto ed è di fatto un sistema operativo differente, di tipo UNIX certificato IEEE compatibile al 100% con lo standard POSIX.
+
+Mac OS X è un sistema operativo proprietario. Solo dove diversamente indicato (come per lo strato del sistema basato su Darwin che è rilasciato sotto la licenza libera Apple Public Source License) sono presenti dei software che sono liberi (software libero) o open source.

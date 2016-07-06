@@ -1,0 +1,3 @@
+Linux è una famiglia di sistemi operativi di tipo Unix-like, rilasciati sotto varie possibili distribuzioni, aventi la caratteristica comune di utilizzare come nucleo il kernel Linux.
+
+Oggi molte società importanti nel campo dell'informatica come IBM, Sun Microsystems, Hewlett-Packard, Red Hat, Canonical e Novell hanno infatti sviluppato e pubblicato, e continuano a farlo, sistemi Linux.

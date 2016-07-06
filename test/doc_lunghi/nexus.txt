@@ -1,0 +1,3 @@
+I Nexus sono una linea di dispositivi mobili che fanno uso del sistema operativo Android, prodotti da Google in collaborazione con degli OEM. Peculiarità dei dispositivi della serie Nexus, è che non hanno personalizzazioni al sistema operativo Android da parte di produttore o gestore telefonico (come, ad esempio, una GUI personalizzata), e dispongono di un bootloader sbloccabile per consentire qualsiasi modifica lato software da parte dell'utente finale, inoltre sono i primi dispositivi Android a ricevere gli aggiornamenti del sistema operativo.
+
+La famiglia di dispositivi è composta da smartphone, tablet e da lettori multimediali.

@@ -1,0 +1,7 @@
+Android è un sistema operativo per dispositivi mobili sviluppato da Google Inc. e basato sul kernel Linux; non è però da considerarsi propriamente una distribuzione GNU/Linux,[3][4] dato che la quasi totalità delle utilità GNU è sostituita da software in Java.[5]
+
+È un sistema embedded progettato principalmente per smartphone e tablet, con interfacce utente specializzate per televisori (Android TV), automobili (Android Auto), orologi da polso (Android Wear), occhiali (Google Glass), e altri.
+
+Al 2015, Android è il sistema operativo per dispositivi mobili più diffuso al mondo, con una fetta di mercato attestatasi a quota 82% sul totale, seguito da iOS con il 13,9%.[6]
+
+Lo sviluppo di Android prosegue attraverso l'Android Open Source Project il quale è software libero ad esclusione di diversi firmware non-liberi inclusi per i produttori di dispositivi e delle cosiddette "Google Apps" come ad esempio Google Play. È distribuito sotto i termini della licenza libera Apache 2.0[7] riservandosi di non-includere software coperto da licenze copyleft.[8]

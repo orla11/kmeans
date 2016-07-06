@@ -1,0 +1,7 @@
+In informatica la programmazione orientata agli oggetti (OOP, Object Oriented Programming) è un paradigma di programmazione che permette di definire oggetti software in grado di interagire gli uni con gli altri attraverso lo scambio di messaggi. È particolarmente adatta nei contesti in cui si possono definire delle relazioni di interdipendenza tra i concetti da modellare (contenimento, uso, specializzazione). Un ambito che più di altri riesce a sfruttare i vantaggi della programmazione ad oggetti è quello delle interfacce grafiche.
+
+Tra gli altri vantaggi della programmazione orientata agli oggetti:
+
+fornisce un supporto naturale alla modellazione software degli oggetti del mondo reale o del modello astratto da riprodurre
+permette una più facile gestione e manutenzione di progetti di grandi dimensioni
+l'organizzazione del codice sotto forma di classi favorisce la modularità e il riuso di codice

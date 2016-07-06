@@ -1,0 +1,5 @@
+Un compilatore, in informatica, è un programma che traduce una serie di istruzioni scritte in un determinato linguaggio di programmazione (codice sorgente) in istruzioni di un altro linguaggio (codice oggetto). Questo processo di traduzione si chiama compilazione.
+
+L'attività inversa, passare dal codice oggetto al codice sorgente è chiamata decompilazione ed è effettuata per mezzo di un decompilatore.
+
+Se tutti i compilatori aderiscono esattamente alla specifica del linguaggio, lo stesso programma potrà essere compilato senza modifiche da ciascun compilatore, producendo risultati semanticamente uguali, ovvero programmi che producono lo stesso risultato se sottoposti agli stessi dati di ingresso. Nella realtà, molti compilatori implementano il linguaggio in modo incompleto, o aggiungono estensioni proprietarie, creando in effetti dei dialetti di ciascun linguaggio. Per i linguaggi che adottano uno standard nella decorazione dei simboli, il codice oggetto generato da compilatori differenti può essere collegato assieme in un unico eseguibile.

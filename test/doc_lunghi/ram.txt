@@ -1,0 +1,7 @@
+La RAM, acronimo dell'inglese Random Access Memory ovvero memoria ad accesso casuale, è un tipo di memoria volatile caratterizzata dal permettere l'accesso diretto a qualunque indirizzo di memoria con lo stesso tempo di accesso.
+
+La memoria ad accesso casuale si affianca ad altre tipologie di memoria come la memoria ad accesso sequenziale e alla memoria ad accesso diretto. Per le sue caratteristiche viene utilizzata come memoria primaria nei più comuni computer.
+
+Il tipo di memoria ad accesso casuale più comune attualmente è a stato solido, a lettura-scrittura e volatile, ma rientrano nel tipo di memoria ad accesso casuale la maggior parte dei tipi di ROM (memoria a sola lettura), la NOR Flash (un tipo di memoria flash), oltre a vari tipi di memorie informatiche utilizzate ai primordi dell'informatica e oggi non più utilizzate come ad esempio la memoria a nucleo magnetico.
+
+L'acronimo RAM (non il termine "memoria ad accesso casuale") ha anche una seconda accezione più ristretta, ma attualmente più diffusa, che identifica le schede fisiche che vengono installate negli odierni computer (vedi moduli DIMM, SIMM, SO-DIMM, etc..)

@@ -1,0 +1,93 @@
+Link Utili: http://doc.qt.io/qt-5/examples-widgets.html
+
+Progetti
+
+-----------------------------------------------------------------
+1) Classificatore KNN: per una descrizione dettagliata vedere
+http://en.wikipedia.org/wiki/KNN (-> https://it.wikipedia.org/wiki/K-nearest_neighbors)
+
+Si devono realizzare le seguenti classi.
+
+a) La classe documento e' un bag-of-words parola->numero_occorrenze, oltre che contenere la classe (string) di appartenenza del documento. 
+Se tale stringa e' vuota la classe e' sconosciuta. 
+
+b) Una classe astratta Classificatore che ha un metodo Classify() che ritorna la classe del documento.
+c) La classe TrainingSet memorizza un insieme di Documenti con classe nota.
+d) Un classificatore KNN che e' figlio di Classificatore e che classifica documenti usando l'algoritmo KNN. L'algoritmo KNN assume di aver a disposizione un TrainingSet. 
+
+Quindi si classifica un documento guardando ai K documenti nel TrainingSet (vedi dopo) piÃ¹' vicini al documento in input. La classe del documento di input e' stabilita 
+sulla base del maggioranza delle classi dei documenti vicini
+La distanza e' realizzabile attraverso varie funzioni. Per il progetto usare come distanza la funzione (1-similarita' coseno).
+
+Facoltativo: realizzare una classe astratta Distanza che realizza l'interfaccia di una funzione di Distanza. 
+Implementare le classi figlie di Distanza: DistanzaEuclidea, DistanzaSimilaritaCoseno, ecc. 
+Con una classe DistanzaFactory inizializzare una distanza specifica, memorizzarla dentro la classe KNN, 
+che userÃ  tale distanza per realizzare le classificazioni.
+
+
+-----------------------------------------------------------------
+2) Realizzare una classe per il clustering di documenti usando l'algoritmo Kmeans. Per dettagli sull'agoritmo vedere:
+http://en.wikipedia.org/wiki/Kmeans (https://rosettacode.org/wiki/K-means%2B%2B_clustering#C)
+
+Il clustering di documenti, data una collezione documentale, li raccoglie in gruppi. 
+I documenti all'interno di un singolo gruppo devono avere contenuto tendenzialmente omogeneo.
+
+La collezione documentale viene realizzata tramite una classe DocumentCollection che contiene un vettore di documenti, 
+ognuno realizzato tramite un istanza di classe Document che contiene la rappresentazione bag-of-words parola->numero_occorrenze.
+
+Realizzare quindi una classe astratta Clustering che implementa l'interfaccia di un generico algoritmo di Clustering. 
+In particolare, dovra' essere presente un metodo Cluster() che ritorni un vettore di vettori di indici dei documenti.
+
+Realizzare la classe Kmeans come figlia di Clustering.
+L'algoritmo Kmeans parte scegliendo K documenti in modo casuale nella collezione: questi sono detti centri. 
+Una prima creazione di gruppi avviene assegnando i documenti nella collezione al centro piÃ¹' vicino.
+L'algoritmo quindi ricalcola i centri calcolando i baricentri dei documenti assegnati ad un centro. 
+Quindi si itera il processo, si riassegnano i documenti al centro piÃ¹' vicino, ecc.
+L'algoritmo termina quando le assegnazioni dei documenti non cambiano tra due iterazioni successive.
+
+-----------------------------------------------------------------
+3) 2) Classificatore Naive Bayes: per una descrizione dettagliata vedere
+http://en.wikipedia.org/wiki/Naive_Bayes_classifier
+
+Si devono realizzare le seguenti classi.
+
+a) La class document e' un bag-of-words parola->numero_occorrenze outrÃ© che contenere la class di appartenenza del document.
+
+b) Una classe astratta Classificatore che ha un metodo Classify() che ritorna la classe del documento.
+c) La classe TrainingSet memorizza un insieme di coppie Documento->argomento_del_documento la cui classe e' nota.
+d) Un classificatore NaiveBayes che e' figlio di Classificatore e che classifica documenti usando l'algoritmo NaiveBayes. L'algoritmo NaiveBayes assume di aver a disposizione un TrainingSet.
+
+La probabilitÃ ' che il documento d sia di classe c e' dato da regola di Bayes:
+p(c|d) ~ p(d|c) p_c
+
+p_c e' la probabilita' a priori della classe. Si stima contando il numero di documenti n_c del training set che appartengono alla classe c
+p_c = n_c / |D|
+dove |D| e' il numero di documenti del training set.
+
+p(d|c) = \prod_{w \in d} p(w|c)
+con p(w|c) e' la probabilita' di avere la parola w nella classe:
+p(w|c) = n_w_c / \sum_v n_v_c
+dove n_w_c e' il numero di volte che w appare complessivamente nei documenti di classe w. \sum_v n_v_c conta il numero totale di occorrenze di parole nei documenti di classe c.
+
+p(c|d) viene calcolata per ogni classe. Alla fine il documento viene assegnato alla classe tale che p(c|d) e' massimo.
+
+-----------------------------------------------------------------
+4) Realizzare una classe per calcolo numerico a precisione arbitraria.
+Si passa la precisione richiesta ad un costruttore e poi deve
+essere possibile effettuare operazioni +,-,\,* tramite operatori.
+In qualsiasi momento eÕ possibile passare il numero indietro ad un double tramite un opportuno metodo.
+
+-----------------------------------------------------------------
+5) Forza4: realizzare il software che permetta di giocare a forza4.
+E' possibile realizzare la classe in modo da permettere il gioco tra due umani (facile) oppure per far giocare un umano contro il PC usando delle semplici euristiche (+difficile).
+Non e' necessario implementare l'interfaccia grafica ma semplicemente stampare sullo schermo attraverso caratteri la disposizione delle pedine.
+
+-----------------------------------------------------------------
+6) Briscola/Scala40/Altro gioco di carte: realizzare il software che permetta di giocare ad un gioco di carte a piacere.
+E' possibile realizzare la classe in modo da permettere il gioco tra due umani (facile) oppure per far giocare un umano contro il PC usando delle semplici euristiche (+difficile).
+Non e' necessario implementare l'interfaccia grafica ma semplicemente stampare sullo schermo attraverso caratteri le carte sul tavolo.
+
+-----------------------------------------------------------------
+7) Dama: realizzare il software che permetta di giocare a dama.
+E' possibile realizzare la classe in modo da permettere il gioco tra due umani (facile) oppure per far giocare un umano contro il PC usando delle semplici euristiche (+difficile).
+Non e' necessario implementare l'interfaccia grafica ma semplicemente stampare sullo schermo attraverso caratteri la disposizione delle pedine.

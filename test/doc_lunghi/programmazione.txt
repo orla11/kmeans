@@ -1,0 +1,3 @@
+La programmazione, in informatica, è l'insieme delle attività e tecniche che una o più persone specializzate, programmatori o sviluppatori (developer), svolgono per creare un programma, ossia un software da far eseguire ad un computer, scrivendo il relativo codice sorgente in un certo linguaggio di programmazione.
+
+Con l'avvento dell'ingegneria del software l'attività di programmazione rappresenta solo la fase implementativa dell'intero ciclo di sviluppo del software con l'obiettivo ultimo di soddisfare le specifiche funzionali richieste dal committente secondo una predefinita analisi di strutturazione. Assieme al lato sistemistico costituisce il ramo o filone di produttività in informatica aziendale, detto terziario avanzato.

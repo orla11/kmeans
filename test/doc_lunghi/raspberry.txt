@@ -1,0 +1,7 @@
+Il Raspberry Pi è un single-board computer (un calcolatore implementato su una sola scheda elettronica) sviluppato nel Regno Unito dalla Raspberry Pi Foundation. Il suo lancio al pubblico è avvenuto il 29 febbraio 2012. Finora, ne sono state prodotte sette versioni (Modelli: A, B, A+, B+, 2, Zero, 3) con prezzi da 5 a 35 dollari statunitensi.
+
+L'idea di base è la realizzazione di un dispositivo economico, concepito per stimolare l'insegnamento di base dell'informatica e della programmazione nelle scuole.
+
+Il progetto ruota attorno a un System-on-a-chip (SoC) Broadcom (BCM2835[2], oppure BCM2836 per il Raspberry Pi 2, o BCM2837 per Raspberry Pi 3), che incorpora un processore ARM, una GPU VideoCore IV, e 256 o 512 Megabyte o 1 Gigabyte di memoria. Il progetto non prevede né hard disk né una unità a stato solido, affidandosi invece a una scheda SD per il boot e per la memoria non volatile.
+
+La scheda è stata progettata per ospitare sistemi operativi basati sul kernel Linux o RISC OS. È assemblata fisicamente in Galles, nel Sony UK Technology Centre.
