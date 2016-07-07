@@ -1,6 +1,7 @@
 #include <iostream>
-#include "../kmeans/Kmeans.h"
-#include "../kmeans/DocumentCollection.h"
+#include "Kmeans.h"
+#include "DocumentCollection.h"
+#include "Clustering.h"
 
 using namespace std;
 
@@ -37,10 +38,10 @@ int main(){
     cout<<"|   Start clustering...  |"<<endl;
     cout<<"--------------------------"<<endl;
     
-    Kmeans k(dc);
+    Clustering * k = new Kmeans(dc);
     
     vector<vecI> result;
-    result = k.cluster(cln);
+    result = k->cluster(cln);
     
     vector<vecI>::iterator iterResult= result.begin();
     for(;iterResult!=result.end();iterResult++){
@@ -59,7 +60,7 @@ int main(){
     
     cout<<endl;
     
-    cout<<"Elapsed time: "<<k.getElaspedTime()<<" milliseconds"<<endl;
+    cout<<"Elapsed time: "<<k->getElaspedTime()<<" milliseconds"<<endl;
 
     return 0;
 }

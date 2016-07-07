@@ -30,7 +30,7 @@ class Kmeans: public Clustering{
         Kmeans(const S& dirname_):Clustering(dirname_){}; // parametric constructor (argument: const S& dirname_)
         Kmeans(DocumentCollection& dc_):Clustering(dc_){}; // parametric constructor overloaded (argument: DocumentCollection& dc_)
         virtual std::vector<vecI> cluster(const int& K_); // implementation of the inherited cluster method (kmeans algorithm)
-        inline const double getElaspedTime() const { return this->elapsed_secs; } // getter: returns the elapsed time attribute
+        virtual const double getElaspedTime() const; // getter: returns the elapsed time attribute
     private:
         float cosSimilarity(Document& d1,Document& d2); // private method which computes the cosine similarity between two documents
         void computeCentroids(); // private method which computes new centroids and computes the similarity to reassing documents in the colleciton to their new centroid
@@ -47,6 +47,10 @@ void Kmeans::stopTimer(){
     this->elapsed_secs = double(this->end-this->begin)/CLOCKS_PER_SEC;
     
     this->elapsed_secs = this->elapsed_secs * 1000;
+}
+
+const double Kmeans::getElaspedTime() const {
+    return this->elapsed_secs;
 }
 
 float Kmeans::cosSimilarity(Document& d1,Document& d2){

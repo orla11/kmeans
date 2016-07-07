@@ -26,6 +26,7 @@ class Clustering{ // define the abstract interface for the Kmeans Class
         }
         virtual ~Clustering(); // distructor
         virtual std::vector<vecI> cluster(const int& K_) = 0; // virtual cluster method, compute the clustering algorithm and returns std::vector<std::vector<int>>
+        virtual const double getElaspedTime() const = 0 ; // returns the elapsed time attribute for the timer
 };
 
 Clustering::~Clustering(){};
