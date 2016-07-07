@@ -1,2 +1,2 @@
 # kmeans
-A simple implementation of the kmeans algorithm which works with .txt files
+A simple implementation of the kmeans algorithm written in C++ which works with .txt files
